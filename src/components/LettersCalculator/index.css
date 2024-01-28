@@ -1,0 +1,65 @@
+/* Write your code here. */
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+* {
+  box-sizing: border-box;
+}
+.letters-calculator-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+}
+.heading {
+  color: white;
+  font-weight: 500;
+  font-family: 'Roboto';
+  max-width: 350px;
+}
+.paragraph {
+  color: white;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.input-phrase {
+  padding: 13px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: #e4e7eb;
+  background-color: transparent;
+  font-weight: bold;
+  display: flex;
+  flex-grow: 1;
+  margin-top: 14px;
+  outline: none;
+}
+.btn {
+  background-color: white;
+  color: #219a6f;
+  border-radius: 8px;
+  border-width: 0;
+  padding: 18px;
+  font-size: 23px;
+  margin-top: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.image-card {
+  align-self: center;
+}
+.image {
+  width: 50vw;
+  height: auto;
+}
